@@ -131,10 +131,40 @@ img, svg { max-width: 100%; }
 .problem-conclusion strong { color: var(--navy); }
 .problem-conclusion__arrow { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; flex: 0 0 auto; background: #e3edfc; color: var(--blue); }
 
+/* Segunda parte */
+.solution-section, .benefits-section, .video-section { padding: 100px 0; }
+.solution-section { background: #f6f9fd; }
+.proposal-heading { max-width: 760px; margin-bottom: 42px; }
+.proposal-heading h2, .video-copy h2 { margin: 18px 0 14px; font-size: clamp(2.15rem,3.5vw,3.25rem); line-height: 1.15; letter-spacing: -.05em; }
+.proposal-heading h2 span { color: var(--blue); }
+.proposal-introduction, .video-copy > p:last-child { color: #64778a; font-size: 1rem; line-height: 1.8; margin: 0; }
+.solution-steps { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; padding: 0; margin: 0; list-style: none; }
+.solution-step, .benefit-card { padding: 28px; border: 1px solid #e3ebf4; border-radius: 20px; background: #fff; }
+.solution-step__number { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 13px; background: #e9f1ff; color: var(--blue); font-size: .82rem; font-weight: 800; }
+.solution-step h3, .benefit-card h3 { margin: 22px 0 9px; font-size: 1.14rem; }
+.solution-step p, .benefit-card > p:last-child { color: #687c8e; font-size: .9rem; line-height: 1.7; margin: 0; }
+.proposal-note { margin: 20px 0 0; color: #718398; font-size: .82rem; }
+.benefits-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }
+.benefit-card__audience { color: var(--blue); font-size: .7rem; font-weight: 800; letter-spacing: .12em; margin: 0; }
+.benefit-card h3 { margin-top: 16px; }
+.video-section { background: #f6f9fd; }
+.video-layout { display: grid; grid-template-columns: .8fr 1.2fr; align-items: center; gap: 55px; }
+.video-copy h2 { font-size: clamp(2rem,3.2vw,3rem); }
+.video-placeholder { min-height: 310px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 15px; padding: 30px; border: 1px dashed #9bb5d1; border-radius: 22px; background: #edf4ff; color: #52687e; text-align: center; }
+.video-placeholder p { margin: 0; }
+.video-placeholder__play { display: grid; place-items: center; width: 64px; height: 64px; padding-left: 4px; border-radius: 50%; background: #fff; color: var(--blue); box-shadow: 0 8px 25px #21486d18; }
+.cta-section { padding: 25px 0 100px; }
+.cta-panel { display: flex; align-items: center; justify-content: space-between; gap: 35px; padding: 42px 48px; border-radius: 23px; background: #132d44; color: #fff; }
+.cta-eyebrow { margin: 0; color: #ffbd83; font-size: .72rem; font-weight: 800; letter-spacing: .13em; }
+.cta-panel h2 { margin: 12px 0 9px; font-size: clamp(1.7rem,3vw,2.4rem); line-height: 1.2; letter-spacing: -.04em; }
+.cta-description { max-width: 650px; margin: 0; color: #c4d2df; font-size: .9rem; line-height: 1.7; }
+.cta-panel .button { flex: 0 0 auto; }
+
 @media (max-width: 1150px) {
   .hero-layout { gap: 45px; }
   .preview-alert { left: -12px; }
   .hero h1 { font-size: clamp(2.7rem,4.7vw,4.2rem); }
+  .main-nav { gap: 22px; }
 }
 @media (max-width: 920px) {
   .hero { padding: 75px 0 85px; }
@@ -148,6 +178,7 @@ img, svg { max-width: 100%; }
   .story-intro__right { padding-left: 0; border-left: 0; }
   .problem-grid { gap: 15px; }
   .problem-card { padding: 23px 20px; }
+  .video-layout { grid-template-columns: 1fr; gap: 30px; }
 }
 @media (max-width: 700px) {
   .container { width: min(100% - 36px,1200px); }
@@ -177,6 +208,14 @@ img, svg { max-width: 100%; }
   .problem-card__top { margin-bottom: 19px; }
   .problem-card__line { margin-top: 24px; }
   .problem-conclusion { padding: 20px; }
+  .solution-section, .benefits-section, .video-section { padding: 72px 0; }
+  .proposal-heading { margin-bottom: 28px; }
+  .solution-steps, .benefits-grid { grid-template-columns: 1fr; }
+  .solution-step, .benefit-card { padding: 24px; }
+  .video-placeholder { min-height: 220px; }
+  .cta-section { padding: 0 0 72px; }
+  .cta-panel { align-items: flex-start; flex-direction: column; padding: 30px 25px; }
+  .main-nav a[href="#solucion"] { display: none; }
 }
 @media (max-width: 400px) {
   .container { width: calc(100% - 30px); }

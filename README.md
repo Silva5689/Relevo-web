@@ -9,7 +9,7 @@ Relevo es una propuesta de aplicación web orientada a pequeños negocios que ne
 
 Relevo ayuda a responsables de pequeños negocios a organizar los horarios y las sustituciones de sus trabajadores, reduciendo las confusiones y facilitando la coordinación del equipo.
 
-**Eslogan provisional:** Relevo: más claridad, menos drama.
+**Eslogan:** Relevo: turnos claros, cambios sin caos
 
 ## Caso de uso
 
@@ -82,11 +82,11 @@ Responsable de completar la página con las siguientes secciones:
 
 ### Contenido y diseño
 - [ ] Confirmar los detalles del caso real con Guillermo.
-- [ ] Validar el eslogan y los textos definitivos con el equipo.
+- [ ] Validar los textos definitivos con el equipo.
 - [ ] Incorporar imágenes del gimnasio con permiso de uso.
-- [ ] Añadir las secciones de Solución y Beneficios.
-- [ ] Incorporar el vídeo conceptual.
-- [ ] Añadir la llamada a la acción final.
+- [x] Añadir las secciones de Solución y Beneficios.
+- [ ] Sustituir el espacio reservado por el vídeo conceptual.
+- [x] Añadir la sección de llamada a la acción final.
 
 ### Integración y pruebas
 - [ ] Comprobar la navegación entre todas las secciones.

@@ -11,9 +11,10 @@ function Header() {
         <nav className="main-nav" aria-label="Navegación principal">
           <a href="#inicio">Inicio</a>
           <a href="#problema">El problema</a>
+          <a href="#solucion">La propuesta</a>
         </nav>
 
-        <a className="header-action" href="#problema">
+        <a className="header-action" href="#contacto">
           Conoce Relevo <ArrowRightIcon size={16} />
         </a>
       </div>
