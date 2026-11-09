@@ -5,7 +5,12 @@ function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <a className="brand" href="#inicio" aria-label="Relevo, ir al inicio">
-          <img src="/relevo-logo.png" alt="Relevo" width="183" height="52" />
+          <img
+            src={`${import.meta.env.BASE_URL}relevo-logo.png`}
+            alt="Relevo"
+            width="183"
+            height="52"
+          />
         </a>
 
         <nav className="main-nav" aria-label="Navegación principal">

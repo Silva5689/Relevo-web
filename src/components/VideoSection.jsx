@@ -19,7 +19,10 @@ function VideoSection() {
           preload="metadata"
           aria-label="Vídeo conceptual de Relevo"
         >
-          <source src="/RELEVO_antes_despues_FullHD.mp4" type="video/mp4" />
+          <source
+            src={`${import.meta.env.BASE_URL}RELEVO_antes_despues_FullHD.mp4`}
+            type="video/mp4"
+          />
           Tu navegador no puede reproducir este vídeo.
         </video>
       </div>
