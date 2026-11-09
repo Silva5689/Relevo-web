@@ -9,7 +9,7 @@
  */
 export const siteContent = {
   brand: 'Relevo',
-  slogan: 'Relevo: turnos claros, cambios sin caos',
+  slogan: 'Tu tiempo merece horarios claros.​',
   hero: {
     eyebrow: 'TURNOS MÁS CLAROS PARA NEGOCIOS PEQUEÑOS',
     headingStart: 'Un cambio de turno',
@@ -103,7 +103,8 @@ export const siteContent = {
   },
   cta: {
     eyebrow: 'RELEVO',
-    description: '[Añadir aquí la invitación final y, si corresponde, una forma de contacto.]',
-    action: 'Descubre la propuesta',
+    description: 'Explora el prototipo interactivo de Relevo.',
+    action: 'Ver demo interactiva',
+    demoUrl: 'https://silva5689.github.io/Prototipo-interactivo/',
   },
 }

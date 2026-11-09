@@ -2,7 +2,7 @@ import { siteContent } from '../content/siteContent.js'
 import { ArrowRightIcon } from './Icons.jsx'
 
 function CTASection() {
-  const { eyebrow, description, action } = siteContent.cta
+  const { eyebrow, description, action, demoUrl } = siteContent.cta
   const { slogan } = siteContent
 
   return (
@@ -13,7 +13,12 @@ function CTASection() {
           <h2 id="cta-title">{slogan}</h2>
           <p className="cta-description">{description}</p>
         </div>
-        <a className="button button--primary" href="#solucion">
+        <a
+          className="button button--primary"
+          href={demoUrl}
+          target="_blank"
+          rel="noreferrer"
+        >
           {action} <ArrowRightIcon size={19} />
         </a>
       </div>
