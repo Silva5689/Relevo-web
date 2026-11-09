@@ -1,7 +1,7 @@
 import { siteContent } from '../content/siteContent.js'
 
 function VideoSection() {
-  const { eyebrow, heading, description, placeholder } = siteContent.video
+  const { eyebrow, heading, description } = siteContent.video
 
   return (
     <section className="video-section" id="video" aria-labelledby="video-title">
@@ -11,10 +11,17 @@ function VideoSection() {
           <h2 id="video-title">{heading}</h2>
           <p>{description}</p>
         </div>
-        <div className="video-placeholder" aria-label="Espacio reservado para el vídeo conceptual">
-          <span className="video-placeholder__play" aria-hidden="true">▶</span>
-          <p>{placeholder}</p>
-        </div>
+        <video
+          className="video-player"
+          controls
+          muted={false}
+          playsInline
+          preload="metadata"
+          aria-label="Vídeo conceptual de Relevo"
+        >
+          <source src="/RELEVO_antes_despues_FullHD.mp4" type="video/mp4" />
+          Tu navegador no puede reproducir este vídeo.
+        </video>
       </div>
     </section>
   )

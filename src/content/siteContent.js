@@ -99,7 +99,6 @@ export const siteContent = {
     heading: 'Relevo en un minuto.',
     description:
       'Una presentación breve de la propuesta y del caso de uso del equipo.',
-    placeholder: '[Añadir aquí el archivo o enlace del vídeo]',
   },
   cta: {
     eyebrow: 'RELEVO',
